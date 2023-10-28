@@ -8,38 +8,20 @@ import RegisterForm from './components/forms/RegisterForm'
   State: Trạng Thái
 */
 function App() {
-  let products = [
-    {
-      id: 1,
-      name: "SP 1",
-      price: 50000
-    },
-    {
-      id: 2,
-      name: "SP 2",
-      price: 50000
-    },
-    {
-      id: 3,
-      name: "SP 3",
-      price: 50000
-    }
-  ]
-
   return (
     <>
-      {/* <Navbar/>
+      {/* <Navbar/> */}
       <div style={{
         width: "500px"
       }}>
-       <ProductTable products={products}/>
+       <ProductTable/>
       </div>
-      -----------------
-      <CountNumber />
-      -----------------
+      {/* -----------------
+      <CountNumber /> */}
+      {/* -----------------
       <UseStateCom></UseStateCom> */}
-      <RegisterForm/>
-      abadbasb
+      {/* <RegisterForm/>
+      abadbasb */}
     </>
   )
 }
